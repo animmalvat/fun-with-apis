@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+
+}
+.navbar {
+    background-color: #004d40;
+    color: white;
+    padding: 1.5%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    background-color: #fff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2%;
+    min-width: 200px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.btn {
+    padding: 4% 5% 4% 5%;
+    font-size: 16px;
+    background-color: #004d40;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 2%;
+}
+
+.input-text {
+    padding: 3% 5% 3% 5%;
+    font-size: 16px;
+    width: 90%;
+}
+
+.weather-card {
+    width: 30%;
+}
+
+.weather {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather-info {
+    padding-top: 8%;
+    padding-right: 2%;
+}
+
+.weather-icon {
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.news-link {
+    text-decoration: none;
+}
+
+.news {
+    padding-bottom: 3%;
+}
+
+.footer {
+    background-color: #004d40;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1%;
+}
