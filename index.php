@@ -18,7 +18,7 @@
             $input = $_GET["search"];
             $logtext.=" search input = ".$input;
         } else {
-            $logtext.=" input=default";
+            $logtext.=" search input=default";
         }
         // encode input so to avoid errors
         $input = rawurlencode($input);
